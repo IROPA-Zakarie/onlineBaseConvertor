@@ -1,0 +1,17 @@
+:root{
+    margin:0; padding: 0; line-height: 10px;
+    background-image: url("bg.jpg"); background-origin: padding-box;height: 700px;
+}
+.welcom{
+    text-align: center;font-size: 60px; font-weight: bold; text-shadow: 5px 5px 10px  #ca0;margin-top: 4%;text-decoration: underline;
+}
+.welcom::first-letter{font-size: 100px;}
+.convertor_container{display: block; position: absolute;  width: 24%; height: 70%; border: 2px solid black;left: calc(50% - 39%/2);
+padding: 5%; box-sizing: padding-box; background-color: #ca0; border-radius: 20Px; box-shadow: 5px 5px 20px #000;margin-top: 15px;
+}
+input[type="text"]{ display: block; width: 100%; margin: 10px; height: 8%; border-radius: 10px; box-shadow: 0 2px 5px blue; font-size: 20px; text-align: center;}
+.flex{display: flex; flex-flow: row nowrap; justify-content: space-between; justify-items: center;margin-top: -6%;}
+.flex input{height: 30px; font-size: 20px;} 
+input:first-of-type{margin-bottom: 20%;}
+h1{cursor: pointer;}
+.author{text-align: center; margin-top: 50px; display: inline-block; position:relative ;left: 30%;font-size: 20px;color: #fff;}
